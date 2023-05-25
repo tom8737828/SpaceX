@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Nasalization';
+    src: url('nasalization-rg.otf');
+}
+
+body {
+    margin: 0;
+    background-color: #151515;
+}
+
+a.home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: 'Nasalization';
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    background-color: #484848;
+    padding: 8px 8px;
+}
+
+a.home:hover {
+    background-color: white;
+    color: black;
+}
